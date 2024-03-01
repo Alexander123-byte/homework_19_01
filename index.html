@@ -281,9 +281,54 @@
                                 Email support,
                                 Help center access
                             </p>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Купить</button>
+                            <button type="button" class="w-100 btn btn-success btn-outline-primary" style="color: white;">Купить</button>
                         </div>
                     </div>
+                </div>
+
+                <div class="col-6">
+                    <p style="font-size: 30px;">Введите ваши данные:</p>
+                    <form>
+                        <div class="mb-3">
+                            <input name="name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Имя">
+                        </div>
+                        <div class="mb-3">
+                            <input name="email" type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                        </div>
+                        <button name="submit" type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
+
+            </div>
+        </main>
+        <main class="row" style="margin-top: 20px;">
+            <p style="font-size: 30px;">
+                FAQ
+            </p>
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseBuy" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Как купить?
+              </a>
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseDeliver" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Как доставить?
+              </a>
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseGuarantee" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Какая гарантия?
+              </a>
+            </p>
+            <div class="collapse" id="collapseBuy">
+              <div class="card card-body">
+                Здесь текст как купить товар.
+              </div>
+            </div>
+            <div class="collapse" id="collapseDeliver">
+                <div class="card card-body">
+                    Здесь текст как доставить товар.
+                </div>
+            </div>
+            <div class="collapse" id="collapseGuarantee">
+                <div class="card card-body">
+                    Здесь текст какая гарантия у товара.
                 </div>
             </div>
         </main>
