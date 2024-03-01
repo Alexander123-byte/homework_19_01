@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local configuration file (например, если вы используете SQLite)
+instance/
+
+# Служебные файлы
+.DS_Store
+Thumbs.db
+
+# Виртуальное окружение
+venv/
+env/
